@@ -1,6 +1,6 @@
 import {AbstractSqliteDriver} from "../sqlite-abstract/AbstractSqliteDriver";
 import {TauriSqlConnectionOptions} from "./TauriSqlConnectionOptions";
-import Database from '@tauri-apps/plugin-sql';
+import Database from "tauri-plugin-sql-api";
 import {QueryRunner} from "../../query-runner/QueryRunner";
 import {TauriSqlQueryRunner} from "./TauriSqlQueryRunner";
 

@@ -132,7 +132,6 @@
     "mssql": "^10.0.1",
     "mysql": "^2.18.1",
     "mysql2": "^3.1.1",
-    "@tauri-apps/plugin-sql": "^2.0.0-beta.3",
     "pg": "^8.9.0",
     "pg-query-stream": "^4.3.0",
     "prettier": "^2.8.3",
@@ -165,6 +164,7 @@
     "reflect-metadata": "^0.1.14 || ^0.2.0",
     "sql.js": "^1.4.0",
     "sqlite3": "^5.0.3",
+    "tauri-plugin-sql-api": "github:tauri-apps/tauri-plugin-sql#v1",
     "ts-node": "^10.7.0",
     "typeorm-aurora-data-api-driver": "^2.0.0"
   },
@@ -214,7 +214,7 @@
     "sqlite3": {
       "optional": true
     },
-    "@tauri-apps/plugin-sql": {
+    "tauri-plugin-sql-api": {
       "optional": true
     },
     "ts-node": {
