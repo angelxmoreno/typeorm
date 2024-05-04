@@ -93,6 +93,7 @@
     "cloud-spanner-orm"
   ],
   "devDependencies": {
+    "@tauri-apps/plugin-sql": "^2.0.0-beta.3",
     "@tsconfig/node16": "^16.1.1",
     "@types/app-root-path": "^1.2.4",
     "@types/chai": "^4.3.4",
@@ -164,7 +165,6 @@
     "reflect-metadata": "^0.1.14 || ^0.2.0",
     "sql.js": "^1.4.0",
     "sqlite3": "^5.0.3",
-    "tauri-plugin-sql-api": "github:tauri-apps/tauri-plugin-sql#v1",
     "ts-node": "^10.7.0",
     "typeorm-aurora-data-api-driver": "^2.0.0"
   },
@@ -214,7 +214,7 @@
     "sqlite3": {
       "optional": true
     },
-    "tauri-plugin-sql-api": {
+    "@tauri-apps/plugin-sql": {
       "optional": true
     },
     "ts-node": {

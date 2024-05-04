@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import Database from "tauri-plugin-sql-api";
+import Database from "@tauri-apps/plugin-sql";
 import {QueryResult} from "../../query-runner/QueryResult";
 import {AbstractSqliteQueryRunner} from "../sqlite-abstract/AbstractSqliteQueryRunner";
 import {Broadcaster} from "../../subscriber/Broadcaster";
